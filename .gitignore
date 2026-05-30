@@ -1,0 +1,21 @@
+# Secrets — never commit
+**/arduino_secrets.h
+**/config.h
+
+# Large media — keep in Google Drive
+**/Media/*
+!**/Media/README.md
+*.mp4
+*.mov
+*.avi
+
+# Arduino / build artifacts
+*.hex
+*.bin
+*.elf
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
